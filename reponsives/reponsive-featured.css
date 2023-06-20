@@ -1,0 +1,408 @@
+/* pc */
+@media screen and (min-width: 1550px) {}
+
+/* end pc */
+
+
+/* ipad pro */
+@media screen and (min-width:968px) and (max-width: 1110px) {
+    .search {
+        display: unset;
+    }
+
+    .word-details {
+        margin-left: -12px;
+    }
+
+    .word-details h5 {
+        margin-top: 10px;
+    }
+
+    .view-add button {
+        width: 97%;
+        margin-left: -13px;
+    }
+
+}
+
+/* end ipad pro */
+
+
+
+/* ipad */
+@media screen and (min-width:768px) and (max-width:967px) {
+    #header .menu-open {
+        height: 200vh;
+        width: 99%;
+        position: fixed;
+        z-index: 9999;
+        padding-top: 651px;
+        display: none;
+    }
+
+    #header .nav-vertical a {
+        font-size: 24px;
+    }
+
+    #header {
+        width: 100%;
+        height: 65px;
+        position: fixed;
+    }
+
+    #header .menu {
+        display: none;
+    }
+
+    #header .search {
+        display: none;
+    }
+
+    #header .col-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header .col-3 img {
+        display: inline-block;
+        max-width: 100%;
+        float: left;
+        margin-right: 95px;
+
+    }
+
+    #header .icon-menu {
+        display: block;
+        text-align: right;
+        z-index: 9999;
+    }
+
+    #header .icon-menu a {
+        color: #000;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .menu-open {
+        position: absolute;
+        top: 0;
+
+    }
+
+    .nav-vertical li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-vertical li a {
+        color: white;
+    }
+
+
+    .main {
+        padding-top: 65px;
+    }
+
+    .featured-row {}
+
+    .col.left,
+    .col.right {
+        display: none;
+    }
+
+    .col.center {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .featured-w {
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .featured-b {
+        padding-left: 0;
+    }
+
+
+    .row-bv {
+        width: 100%;
+        margin-left: -26px;
+    }
+
+    .img-bv {
+        max-width: 10%;
+    }
+
+    .word-bv {
+        margin-left: 0px;
+    }
+
+    .word-bv p {
+        font-size: 14px;
+    }
+
+
+    .footer {
+        height: 618px;
+    }
+
+    .footer-row {}
+
+    .footer-wor {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+/* end ipad */
+
+
+/* mobile */
+@media screen and (max-width:767px) {
+    #header .menu-open {
+        height: 200vh;
+        width: 99%;
+        position: fixed;
+        z-index: 9999;
+        padding-top: 651px;
+        display: none;
+    }
+
+    #header .nav-vertical a {
+        font-size: 24px;
+    }
+
+    #header {
+        width: 100%;
+        height: 65px;
+        position: fixed;
+    }
+
+    #header .menu {
+        display: none;
+    }
+
+    #header .search {
+        display: none;
+    }
+
+    #header .col-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header .col-3 img {
+        display: inline-block;
+        max-width: 100%;
+        float: left;
+        margin-right: 95px;
+
+    }
+
+    #header .icon-menu {
+        display: block;
+        text-align: right;
+        z-index: 9999;
+    }
+
+    #header .icon-menu a {
+        color: #000;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .menu-open {
+        position: absolute;
+        top: 0;
+
+    }
+
+    .nav-vertical li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-vertical li a {
+        color: white;
+    }
+
+    .main {
+        padding-top: 65px
+    }
+
+    .col.left,
+    .col.right {
+        display: none;
+    }
+
+    .col.center {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .featured-row {
+        margin-right: 0px;
+    }
+
+    .featured-w {
+        order: 2;
+        margin-top: 34px;
+        margin-left: 7px;
+    }
+
+    .featured-b {}
+
+    .information img {
+        width: 109%;
+        height: 218px;
+        margin-left: 0px;
+    }
+
+    .word-details #current-date {}
+
+    .word-details {
+        flex-basis: 96%;
+        max-width: 95%;
+        margin-left: -6px;
+    }
+
+
+    .banner-2 h3 {
+        top: 50%;
+        left: 12%;
+        transform: translate(-1%, -48%);
+        font-size: 23px;
+    }
+
+    .information {
+        height: auto;
+        width: 109%;
+    }
+
+    .col-infor {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        height: 627px;
+    }
+
+    .footer-row {}
+
+    .footer-wor {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+/* end mobile */
+
+#header .nav-vertical {
+    display: none;
+}
+
+#header .menu-open {
+    background: rgb(0 0 0 / 85%);
+}
+
+#header .icon-menu {
+    z-index: 9999;
+}
+
+#header .menu-open .nav-vertical {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#header .nav-vertical li {
+    margin-bottom: 10px;
+}
+
+#header .nav-vertical a {
+    display: block;
+    padding: 5px;
+    color: white;
+    padding-bottom: 23px;
+}
+
+#header .nav-vertical.menu-open {
+    display: block;
+    /* Các kiểu CSS khác để điều chỉnh hiển thị menu dọc */
+}
+
+.icon-menu {
+    color: #000;
+    font-size: 20px;
+}
+
+.menu-mobi-close i {
+    padding: 5px 13px;
+    font-style: normal;
+    background: #fff;
+    color: red;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 999;
+}
+
+.menu-mobi-close {
+    z-index: 9999;
+}
+
+#menuOpen {
+    display: none;
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+    background-color: #030303e0;
+    z-index: 9999;
+    overflow-x: hidden;
+    padding: 10px;
+    animation: slideIn 0.5s forwards;
+}
+
+.slide-in {
+    animation: slideIn 0.5s forwards;
+}
+
+.slide-out {
+    animation: slideOut 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

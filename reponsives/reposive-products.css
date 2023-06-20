@@ -1,0 +1,607 @@
+@media screen and (min-width:1550px) {}
+
+
+/* ipad pro */
+@media screen and (min-width:968px) and (max-width: 1110px) {
+  #header .logo img {
+    float: left;
+  }
+
+  #header li a {
+    font-size: 15px;
+    padding-left: 11px;
+  }
+
+  .prod-row {
+    margin-right: 0px;
+  }
+
+  .col-left,
+  .col-right {
+    display: none;
+  }
+
+  .col-center {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .product-row {}
+
+  .product-sidebar {}
+
+  .product-inform {
+    max-width: 72%;
+  }
+
+
+  .list-inline li {
+    width: 218px;
+  }
+
+}
+
+/* end ipad pro */
+
+
+/* ipad */
+@media screen and (min-width:768px) and (max-width:967px) {
+  #header .menu-open {
+    height: 200vh;
+    width: 99%;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 651px;
+    display: none;
+  }
+
+  #header .nav-vertical a {
+    font-size: 24px;
+  }
+
+  #header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+  }
+
+  #header .menu {
+    display: none;
+  }
+
+  #header .search {
+    display: none;
+  }
+
+  #header .col-3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #header .col-3 img {
+    display: inline-block;
+    max-width: 100%;
+    float: left;
+    margin-right: 95px;
+
+  }
+
+  #header .icon-menu {
+    display: block;
+    text-align: right;
+    z-index: 9999;
+  }
+
+  #header .icon-menu a {
+    color: #000;
+    padding: 10px;
+  }
+
+  .menu-open {
+    position: absolute;
+    top: 0;
+
+  }
+
+  .nav-vertical li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-vertical li a {
+    color: white;
+  }
+
+  .main {
+    padding-top: 65px;
+  }
+
+  .banner-2 h3 {
+    font-size: 27px;
+  }
+
+  .prod-row {
+    margin-right: 0px;
+  }
+
+  .locj {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .locj button {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: #F5F5F5;
+  }
+
+  .locj button span {
+    margin: 4px 10px 10px 0px;
+
+  }
+
+  .locj button p {
+    margin-top: 9px;
+  }
+
+  .filter {
+    width: 98%;
+  }
+
+  .form-control {
+    width: 82%;
+  }
+
+  .col-left,
+  .col-right {
+    display: none;
+
+  }
+
+  .col-center {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .product-sidebar {
+    display: none;
+  }
+
+  .product-inform {}
+
+  .list-inline {
+    padding-left: 12px;
+    margin-right: 0px;
+  }
+
+  /* footer */
+  .footer {
+    height: 651px;
+  }
+
+  .footer-wor {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+
+
+  /* submenu */
+  .product-submenu {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.597);
+    display: none;
+    animation: slideLoc 0.5s forwards;
+  }
+
+  .product-sub {
+    width: 39%;
+    background: #eeeeee;
+  }
+
+  .close-icon {
+    position: absolute;
+    right: 0px;
+    color: red;
+    background: aliceblue;
+    width: 36px;
+    height: 34px;
+    z-index: 9999;
+    border-radius: 7px;
+
+  }
+
+  .close-icon i {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 19px;
+    font-style: normal;
+  }
+
+  .product-sub ul li {
+    list-style-type: none;
+    margin-top: 16px;
+    margin-left: -28px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+  }
+
+  .product-sub ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .product-sub ul {
+    background: white;
+    width: 90%;
+    margin-left: 14px;
+    border-radius: 8px;
+  }
+
+  .product-sub ul li span {
+    margin-left: 31px;
+  }
+
+  .product-submenu.show {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.597);
+    z-index: 99999;
+  }
+
+  .filter-button.active+.product-submenu {
+    display: block;
+  }
+
+
+
+}
+
+/* end ipad */
+
+
+/* mobile */
+@media screen and (max-width:767px) {
+  #header .menu-open {
+    height: 200vh;
+    width: 99%;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 651px;
+    display: none;
+  }
+
+  #header .nav-vertical a {
+    font-size: 24px;
+  }
+
+  #header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+  }
+
+  #header .menu {
+    display: none;
+  }
+
+  #header .search {
+    display: none;
+  }
+
+  #header .col-3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #header .col-3 img {
+    display: inline-block;
+    max-width: 100%;
+    float: left;
+    margin-right: 95px;
+
+  }
+
+  #header .icon-menu {
+    display: block;
+    text-align: right;
+    z-index: 9999;
+  }
+
+  #header .icon-menu a {
+    color: #000;
+    padding: 10px;
+  }
+
+  .menu-open {
+    position: absolute;
+    top: 0;
+
+  }
+
+  .nav-vertical li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-vertical li a {
+    color: white;
+  }
+
+  /* main */
+  .main {
+    padding-top: 65px;
+  }
+
+  .banner-2 {
+    height: 177px;
+  }
+
+  .prod-row {
+    margin-right: 0px;
+  }
+
+  .locj {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .locj button {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: #F5F5F5;
+  }
+
+  .locj button span {
+    margin: 4px 10px 10px 0px;
+
+  }
+
+  .locj button p {
+    margin-top: 9px;
+  }
+
+
+
+
+  .col-left,
+  .col-right {
+    display: none;
+  }
+
+  .col-center {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .filter {
+    width: 96%;
+  }
+
+  .product-sidebar {
+    display: none;
+    position: relative;
+  }
+
+  .product-inform {}
+
+
+  .infor_product li img {
+    width: 159px;
+    height: 105px;
+  }
+
+
+  .list-inline .item-sp {}
+
+  .list-inline .item-sp h5 {
+    font-size: 17px;
+  }
+
+
+  /* footer */
+  .footer {
+    height: 669px;
+  }
+
+
+  .footer-wor {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* submenu */
+  .product-submenu {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.597);
+    display: none;
+    animation: slideLoc 0.5s alternate;
+  }
+
+  .product-sub {
+    width: 75%;
+    background: #eeeeee;
+  }
+
+  .close-icon {
+    position: absolute;
+    right: 0px;
+    color: red;
+    background: aliceblue;
+    width: 36px;
+    height: 34px;
+    z-index: 9999;
+    border-radius: 7px;
+
+  }
+
+  .close-icon i {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 19px;
+    font-style: normal;
+  }
+
+  .product-sub ul li {
+    list-style-type: none;
+    margin-top: 16px;
+    margin-left: -28px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+  }
+
+  .product-sub ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .product-sub ul {
+    background: white;
+    width: 90%;
+    margin-left: 14px;
+    border-radius: 8px;
+  }
+
+  .product-sub ul li span {
+    margin-left: 31px;
+  }
+
+  .product-submenu.show {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.597);
+    z-index: 99999;
+  }
+
+  .filter-button.active+.product-submenu {
+    display: block;
+  }
+
+
+}
+
+/* end mobile */
+
+#header .nav-vertical {
+  display: none;
+}
+
+#header .menu-open {
+  background: rgb(0 0 0 / 85%);
+}
+
+#header .icon-menu {
+  z-index: 9999;
+}
+
+#header .menu-open .nav-vertical {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#header .nav-vertical li {
+  margin-bottom: 10px;
+}
+
+#header .nav-vertical a {
+  display: block;
+  padding: 5px;
+  color: white;
+  padding-bottom: 23px;
+}
+
+#header .nav-vertical.menu-open {
+  display: block;
+  /* Các kiểu CSS khác để điều chỉnh hiển thị menu dọc */
+}
+
+.icon-menu {
+  color: #000;
+  font-size: 20px;
+}
+
+.menu-mobi-close i {
+  padding: 5px 13px;
+  font-style: normal;
+  background: #fff;
+  color: red;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.5;
+  z-index: 999;
+}
+
+.menu-mobi-close {
+  z-index: 9999;
+}
+
+#menuOpen {
+  display: none;
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+  background-color: #030303e0;
+  z-index: 9999;
+  overflow-x: hidden;
+  padding: 10px;
+  animation: slideIn 0.5s forwards;
+}
+
+.slide-in {
+  animation: slideIn 0.5s forwards;
+}
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLoc {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
