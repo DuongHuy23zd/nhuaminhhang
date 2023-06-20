@@ -385,6 +385,7 @@ img {
 
 .item-products img {
   padding: 16px 16px;
+  border-radius: 23px;
 }
 
 .item-products h5 {
